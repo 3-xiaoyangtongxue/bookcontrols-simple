@@ -1,0 +1,28 @@
+JFDML JFormDesigner: "8.2.2.0.382" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:17:p, comp label1:::p::p, space s:::p, comp label2:::p::p, space s:::p, comp label3:::p:287:p, space ::76:x}}"
+			"$verticalGroup": "par l {seq {par l {seq {space :p:104:p, par b {comp label1::b:p::p, comp label2::b:p::p}}, seq l {space :::p, comp label3:::p:307:p}}, space ::46:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "恶龙咆哮"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "->"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "H:\\bookmanage\\bookmanager\\tupian\\d9428363b9150cf817f4d4163ce6393c.jpg" )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 125, 160 )
+			"size": new java.awt.Dimension( 480, 390 )
+		} )
+	}
+}

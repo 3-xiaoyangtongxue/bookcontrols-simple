@@ -1,0 +1,56 @@
+JFDML JFormDesigner: "8.2.2.0.382" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {space :0:578:x}"
+			"$verticalGroup": "par l {space :0:442:x}"
+		} ) {
+			name: "this"
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "all"
+					"text": "基本数据维护"
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "all1"
+						"text": "图书类别管理"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "all11"
+							"text": "图书类别添加"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "all11", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "all12"
+							"text": "图书类别维护"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "all12", true ) )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "all2"
+						"text": "图书管理"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "all21"
+							"text": "图书添加"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "all21", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "all22"
+							"text": "图书维护"
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "all22", true ) )
+						} )
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JMenuItem" ) {
+					name: "all3"
+					"text": "关于我们"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "all3", true ) )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 40, 70 )
+			"size": new java.awt.Dimension( 580, 495 )
+		} )
+	}
+}
