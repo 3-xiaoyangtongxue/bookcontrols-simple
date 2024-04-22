@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 //import com.mysql.cj.jdbc.Driver;
 /*数据库工具类*/
 //数据库连接
+//git的新分治再合并时的操作
 public class Dbutil {
     private String dbUrl="jdbc:mysql://localhost:3306/xuexi?characterEncoding=utf-8&&serverTimezone=UTC&&useSSL=false";
     private String dbUserName="root";
