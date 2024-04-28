@@ -45,9 +45,12 @@ public class Main extends JFrame {
         bookManagerInterFrm.setVisible(true);
     }
 
+    private void all2(ActionEvent e) {
+        // TODO add your code here
+    }
+
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
-        // Generated using JFormDesigner Evaluation license - 托马斯格兰森
         menuBar1 = new JMenuBar();
         all = new JMenu();
         all1 = new JMenu();
@@ -125,7 +128,6 @@ public class Main extends JFrame {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
-    // Generated using JFormDesigner Evaluation license - 托马斯格兰森
     private JMenuBar menuBar1;
     private JMenu all;
     private JMenu all1;
