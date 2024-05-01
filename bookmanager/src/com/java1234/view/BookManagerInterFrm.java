@@ -241,7 +241,6 @@ public class BookManagerInterFrm extends JFrame {
     private com.java1234.dao.bookdao bookdao=new bookdao();
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
-        // Generated using JFormDesigner Evaluation license - 托马斯格兰森
         scrollPane1 = new JScrollPane();
         booktabe = new JTable();
         panel1 = new JPanel();
@@ -301,13 +300,6 @@ public class BookManagerInterFrm extends JFrame {
         //======== panel1 ========
         {
             panel1.setBorder(new TitledBorder("\u641c\u7d22\u6761\u4ef6"));
-            panel1.setBorder(new javax.swing.border.CompoundBorder(new javax.swing.border.TitledBorder(new javax
-            .swing.border.EmptyBorder(0,0,0,0), "JF\u006frm\u0044es\u0069gn\u0065r \u0045va\u006cua\u0074io\u006e",javax.swing
-            .border.TitledBorder.CENTER,javax.swing.border.TitledBorder.BOTTOM,new java.awt.
-            Font("D\u0069al\u006fg",java.awt.Font.BOLD,12),java.awt.Color.red
-            ),panel1. getBorder()));panel1. addPropertyChangeListener(new java.beans.PropertyChangeListener(){@Override
-            public void propertyChange(java.beans.PropertyChangeEvent e){if("\u0062or\u0064er".equals(e.getPropertyName(
-            )))throw new RuntimeException();}});
 
             //---- label1 ----
             label1.setText("\u56fe\u4e66\u540d\u79f0\uff1a");
@@ -521,16 +513,15 @@ public class BookManagerInterFrm extends JFrame {
                     .addComponent(panel2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(35, Short.MAX_VALUE))
         );
-        this.fillbooktype("search");
-        this.fillbooktype("modify");
-        this.filltable(new book());
+        fillbooktype("search");
+        fillbooktype("modify");
+        filltable(new book());
         pack();
         setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
-    // Generated using JFormDesigner Evaluation license - 托马斯格兰森
     private JScrollPane scrollPane1;
     private JTable booktabe;
     private JPanel panel1;

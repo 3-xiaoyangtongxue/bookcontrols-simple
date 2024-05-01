@@ -124,7 +124,6 @@ public class bookadd extends JFrame {
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
-        // Generated using JFormDesigner Evaluation license - 托马斯格兰森
         label1 = new JLabel();
         booknametxt = new JTextField();
         label2 = new JLabel();
@@ -228,13 +227,13 @@ public class bookadd extends JFrame {
             contentPane.setMinimumSize(preferredSize);
             contentPane.setPreferredSize(preferredSize);
         }
+        fillbooktype();
         pack();
         setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
-    // Generated using JFormDesigner Evaluation license - 托马斯格兰森
     private JLabel label1;
     private JTextField booknametxt;
     private JLabel label2;
